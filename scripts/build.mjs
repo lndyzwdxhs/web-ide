@@ -30,6 +30,12 @@ const clientConfig = {
   format: 'cjs',
   target: ['es2020'],
   bundle: true,
+  external: [
+    'react',
+    'react/jsx-runtime',
+    'react-dom',
+    'react-dom/client',
+  ],
   logLevel: 'info',
   define: {
     'process.env.NODE_ENV': '"production"',
