@@ -1,0 +1,6 @@
+- insert:
+    - id: dsh-cursor-layout
+      name: dsh-cursor-layout
+
+- id: ui-layout
+  disabled: true
