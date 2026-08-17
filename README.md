@@ -10,6 +10,10 @@
   <img src="https://badgen.net/badge/format/official%20bundle/8257D0" alt="official bundle" />
 </p>
 
+<p align="center">
+  <img src="cover.png" alt="web-ide screenshot" width="90%" />
+</p>
+
 ---
 
 ## 能力
