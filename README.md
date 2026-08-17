@@ -28,7 +28,7 @@
 
 ```sh
 # git 源一行安装（构建产物已入库）
-dsh plugin --profile web add "github:<owner>/web-ide#main"
+dsh plugin --profile web add "github:lndyzwdxhs/web-ide#main"
 
 # 或本地目录（先构建：pnpm install && pnpm run bundle）
 cd /path/to/web-ide
