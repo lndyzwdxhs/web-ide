@@ -1,4 +1,4 @@
-<h1 align="center">dsh-cursor-layout</h1>
+<h1 align="center">web-ide</h1>
 
 <p align="center">
   <strong>DeepSeek Harness web 的 Cursor 风格三栏工作台</strong><br/>
@@ -28,10 +28,10 @@
 
 ```sh
 # git 源一行安装（构建产物已入库）
-dsh plugin --profile web add "github:<owner>/dsh-cursor-layout#main"
+dsh plugin --profile web add "github:<owner>/web-ide#main"
 
 # 或本地目录（先构建：pnpm install && pnpm run bundle）
-cd /path/to/dsh-cursor-layout
+cd /path/to/web-ide
 dsh plugin --profile web add .
 ```
 
@@ -44,7 +44,7 @@ dsh web
 更新插件：
 
 ```sh
-dsh plugin --profile web update dsh-cursor-layout
+dsh plugin --profile web update web-ide
 ```
 
 ## 开发

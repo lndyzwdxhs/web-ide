@@ -1,6 +1,6 @@
 # AGENTS.md
 
-dsh-cursor-layout 是 DeepSeek Harness 的官方 **bundle 插件**（仓库根
+web-ide 是 DeepSeek Harness 的官方 **bundle 插件**（仓库根
 `package.json` 的 `dsh.bundle` + `dsh.client`）。它用 Cursor 风格三栏布局
 替换默认 web shell：左栏 workspace 文件树、中栏 CodeMirror 多标签编辑器、
 右栏原生 DSH conversation UI。架构说明见 [docs/architecture.md](docs/architecture.md)。

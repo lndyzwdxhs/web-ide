@@ -1,5 +1,5 @@
 {
-  "name": "dsh-cursor-layout",
+  "name": "web-ide",
   "version": "0.1.0",
   "description": "Cursor-style three-pane web UI plugin for DeepSeek Harness.",
   "license": "MIT",

@@ -1,4 +1,4 @@
-# dsh-cursor-layout 架构
+# web-ide 架构
 
 ## 总体结构
 
@@ -8,7 +8,7 @@ client half：
 - Node half（`src/index.ts`）：在 `webServer` 上注册文件树读写 API。
 - Client half（`src/client/index.ts`）：在浏览器中注册根布局 slot，并渲染
   Cursor 风格三栏工作台。
-- `cordis.patch.yml`：向 web 组合层挂载 `dsh-cursor-layout`，并禁用默认
+- `cordis.patch.yml`：向 web 组合层挂载 `web-ide`，并禁用默认
   `ui-layout`，让本插件接管根布局。
 
 ## Node half

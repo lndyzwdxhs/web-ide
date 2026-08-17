@@ -6,7 +6,7 @@ import { join } from 'node:path'
 import { verifyPackage } from './verify-package.mjs'
 
 test('verify-package rejects a package without bundle declaration', () => {
-  const dir = mkdtempSync(join(tmpdir(), 'dsh-cursor-layout-gate-'))
+  const dir = mkdtempSync(join(tmpdir(), 'web-ide-gate-'))
   try {
     writeFileSync(join(dir, 'package.json'), JSON.stringify({
       name: 'broken-plugin',

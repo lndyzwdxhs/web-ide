@@ -1,6 +1,6 @@
 - insert:
-    - id: dsh-cursor-layout
-      name: dsh-cursor-layout
+    - id: web-ide
+      name: web-ide
 
 - id: ui-layout
   disabled: true
